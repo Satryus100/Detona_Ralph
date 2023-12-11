@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url("/DetonaRalPH/JogosJavascript/componentesImagem/muroTijolos.jpg");
+  background-image: url("/muroTijolos.jpg");
 }
 
 .menu{
@@ -32,7 +32,7 @@
 }
 
 .ralph-brabo{
-  background-image: url("/DetonaRalPH/JogosJavascript/componentesImagem/Ralph.png");
+  background-image: url("/Ralph.png");
    background-size: cover;
    background-repeat: no-repeat;
   
