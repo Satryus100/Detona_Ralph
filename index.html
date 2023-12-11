@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Settings-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  
+  <!--CSS-->
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/principal.css">
+  <title>DETONA RALPH</title>
+
+<body>
+  
+   <audio src="/game-music-loop-7-145285.mp3" autoplay loop ></audio>
+  <div class="container">
+    <div class="menu">
+      <div class="menu-times">
+        <h2 style="color: #FF4500">Time Left</h2>
+        <h2 id="time">0</h2>
+      </div>
+      <div class="menu-score">
+        <h2 style="color: #FF4500">Your Score</h2>
+        <h2 id="score">0</h2>
+      </div>
+      <div class="menu-lives">
+        <img  src="/vidaRalph.jpeg" alt="imagem rosto do ralph" height="40">x3
+      </div>
+    </div>
+    
+    <div class="painel">
+      <div class="painel-lista">
+        <div class="quadrado" id="1"></div>
+        <div class="quadrado" id="2"></div>
+        <div class="quadrado" id="3"></div>
+      </div>
+      <div class="painel-lista">
+        <div class="quadrado" id="5"></div>
+        <div class="quadrado" id="5"></div>
+        <div class="quadrado" id="6"></div>
+      </div>
+      
+      <div class="painel-lista">
+        <div class="quadrado" id="7"></div>
+        <div class="quadrado" id="8"></div>
+        <div class="quadrado" id="9"></div>
+      </div>
+     </div>
+    </div>
+    
+  <script defer src="/motor.js"></script>
+</body>
+
+</html>
